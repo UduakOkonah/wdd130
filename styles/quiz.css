@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lato;
+    font-size: 1.2em;
+    color: #272727;
+    background: #fff;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1{
+    margin: 1rem;
+    font-size: 1.5em;
+    color: palevioletred;
+    text-align: center;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eeeeee;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    padding: 1.5rem;
+}
+
+legend{
+    padding: 0.6rem;
+    color: palevioletred;
+    font-size: 1.4em;
+}
+
+label,input,button,select, textarea{
+    font-family: lato, Montserrat, sans-serif,;
+}
+
+label{
+    text-align: left;
+    padding-right: 1rem;
+}
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input{
+    width: 300px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 1rem;
+    background-color: palevioletred;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .78rem;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    background-color: purple;
+}
+
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.9em;
+    color: aqua;
+    border-top: 1px solid #ccc;
+}
+
+.quiz-form{
+    display: grid;
+    align-items: center;
+}
+
+.question4{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+
+}
+
+.question1{
+    grid-template-columns: 1fr 2fr;
+}

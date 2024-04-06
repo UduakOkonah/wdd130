@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+       <h1>HTML and CSS Quiz</h1>
+    </header>
+    <main>
+    <form id="quiz-form">
+        <fieldset>
+            <div  class="quiz-form  question1">
+                  <!-- Fill in the blank question -->
+                 <legend>Question 1 </legend><br>
+                 <label for="q1">Instruction: Fill in the blank.<br>The HTML tag used for adding metadata to a webpage is the ____________tag. </label><br>
+                  <input type="text" id="q1" name="q1" placeholder="Your Answer"><br>
+        </div>
+        </fieldset>
+        <fieldset>
+            <div  class="quiz-form question1">
+                  <!-- Short answer question -->
+                  <legend>Question 2 </legend><br>
+                 <label for="q2"> What does HTML stand for?</label><br>
+                  <input type="text" id="q2" name="q2"><br>
+            </div> 
+        </fieldset>
+        <fieldset>
+            <div class="quiz-form">
+                   <!-- Dropdown (select) question -->
+                   <legend>Question 3 </legend><br>
+                   <label for="q3">What does the CSS property margin control?</label>
+                   <select id="q3" name="q3" required>
+                    <option value="" selected disabled>Choose an option</option>
+                    <option value="option1">The spacing between the content and the border of an element</option>
+                    <option value="option2">The width of an element’s border.</option>
+                    <option value="option3">The font size of text within an element</option>
+                    <option value="option4">The background color of an element.</option>
+                   </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div  class="quiz-form question4">
+                     <!-- Integer Answer -->
+                         <legend>Question 4</legend><br>
+                         <label for="q4">Which HTML element is used to create an ordered list?<br>
+                            1.ul<br>
+                            2.ol<br>
+                            3.li<br>
+                            4.dl</label><br>
+                         <input type="number" id="q4" min="1" max="4" name="q4"><br>
+             </div>    
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+    
+    </form>
+    </main>
+    <footer>
+        <p> ©️2024 Quiz Form Uduakobong Okonah</p>
+    </footer>
+</body>
+</html>
